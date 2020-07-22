@@ -12,6 +12,10 @@ body {
     color: orange;
 }
 
+h1, h3 {
+    text-transform: uppercase;
+}
+
 .section {
     float: right;
     width: 67%;

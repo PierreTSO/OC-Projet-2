@@ -8,6 +8,10 @@ body {
     width: 67%;
 }
 
+.prenom {
+    color: orange;
+}
+
 .section {
     float: right;
     width: 67%;

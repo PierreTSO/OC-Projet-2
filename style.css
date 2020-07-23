@@ -23,13 +23,12 @@ body {
     height: 2px;
     width: 5%;
     border: none;
-    padding-left: 0%;
-    margin: 0%;
-    padding-top: -10px;
+    margin: 0;
+    padding: 0;
 }
 
 .span-header {
-    text-decoration: underline orange;
+    text-decoration: underline orange solid;
     margin-top: 5px;
 }
 

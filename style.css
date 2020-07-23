@@ -57,3 +57,7 @@ h1, h3 {
     float: left;
     width: 33%;
 }
+
+.fas {
+    color: orange;
+}

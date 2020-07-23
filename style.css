@@ -10,9 +10,14 @@ body, html {
     width: 67%;
 }
 
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
 .prenom {
     color: orange;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
     font-weight: 150;
 }
 
@@ -22,7 +27,8 @@ body, html {
 }
 
 .poste {
-    padding-bottom: 2px;
+    margin: 0;
+    padding: 0;
 }
 
 .span-header {
@@ -40,6 +46,10 @@ h1, h3 {
 .section {
     float: right;
     width: 67%;
+}
+
+.section h3 {
+    letter-spacing: 0.02em;
 }
 
 .sidebar {

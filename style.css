@@ -1,6 +1,8 @@
-body {
-    font-family: "comic sans ms";
+body, html {
     display: inline-block;
+    font-family: 'Roboto-Light', sans-serif;
+    font-weight: 200;
+    font-size: 1em;
 }
 
 .header {
@@ -10,6 +12,13 @@ body {
 
 .prenom {
     color: orange;
+    letter-spacing: 0.1em;
+    font-weight: 150;
+}
+
+.nom {
+    letter-spacing: -0.1em;
+    font-weight: 100;
 }
 
 .poste {
@@ -18,6 +27,10 @@ body {
 
 .span-header {
     border-bottom: solid orange;
+}
+
+h2 {
+    font-weight: 100;
 }
 
 h1, h3 {

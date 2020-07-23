@@ -12,6 +12,27 @@ body {
     color: orange;
 }
 
+.poste {
+    padding-bottom: 2px;
+}
+
+.hr-header {
+    display: flex;
+    float: left;
+    background: #FFA500;
+    height: 2px;
+    width: 5%;
+    border: none;
+    padding-left: 0%;
+    margin: 0%;
+    padding-top: -10px;
+}
+
+.span-header {
+    text-decoration: underline orange;
+    margin-top: 5px;
+}
+
 h1, h3 {
     text-transform: uppercase;
 }

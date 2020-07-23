@@ -16,20 +16,8 @@ body {
     padding-bottom: 2px;
 }
 
-.hr-header {
-    display: flex;
-    float: left;
-    background: #FFA500;
-    height: 2px;
-    width: 5%;
-    border: none;
-    margin: 0;
-    padding: 0;
-}
-
 .span-header {
-    text-decoration: underline orange solid;
-    margin-top: 5px;
+    border-bottom: solid orange;
 }
 
 h1, h3 {

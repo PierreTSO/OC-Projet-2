@@ -10,9 +10,8 @@ body, html {
     width: 67%;
 }
 
-h1 {
-    margin: 0;
-    padding: 0;
+h1, .poste {
+    padding-left: 8%;
 }
 
 .prenom {
@@ -24,11 +23,6 @@ h1 {
 .nom {
     letter-spacing: -0.1em;
     font-weight: 100;
-}
-
-.poste {
-    margin: 0;
-    padding: 0;
 }
 
 .span-header {

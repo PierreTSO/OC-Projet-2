@@ -46,7 +46,7 @@ h1, h3 {
     letter-spacing: 0.02em;
 }
 
-.container-1, .container-2 {
+.container {
     padding-left: 8%;
     padding-right: 5%;
 }

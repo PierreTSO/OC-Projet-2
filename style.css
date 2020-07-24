@@ -52,6 +52,10 @@ h1, h3 {
     letter-spacing: 0.02em;
 }
 
+.hr-section {
+    border: 1px solid orange;
+}
+
 .sidebar {
     background-color: orange;
     float: left;

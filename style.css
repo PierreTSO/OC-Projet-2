@@ -46,8 +46,11 @@ h1, h3 {
     letter-spacing: 0.02em;
 }
 
-.hr-section {
-    border: 1px solid orange;
+
+.fas, .titre-section-formation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .container-1, .container-2 {

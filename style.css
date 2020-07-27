@@ -1,5 +1,6 @@
-body, html {
-    display: inline-block;
+body {
+    display: flex;
+    flex-wrap: wrap;
     font-family: 'Roboto-Light', sans-serif;
     font-weight: 200;
     font-size: 1em;
@@ -54,6 +55,13 @@ h1, h3 {
     letter-spacing: 0.02em;
 }
 
+
+.section-gauche, .section-droite {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .sidebar {
     background-color: orange;

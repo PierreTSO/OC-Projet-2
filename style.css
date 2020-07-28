@@ -58,6 +58,7 @@ h1, h3, h4 {
 .fas {
     color: orange;
     position: relative;
+    font-size: 2em;
 }
 
 .titre-section  {

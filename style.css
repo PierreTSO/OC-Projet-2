@@ -11,7 +11,7 @@ body {
 }
 
 .prenom {
-    color: orange;
+    color: #FFCA28;
     letter-spacing: 0.05em;
     font-weight: 150;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 .span-header {
-    border-bottom: solid orange;
+    border-bottom: solid #FFCA28;
 }
 
 header {
@@ -32,14 +32,14 @@ header {
 
 h1 {
     font-size: 2.5em;
-    margin: 10% auto 0 auto;
+    margin: 15% auto 0 auto;
     padding: 0 auto;
 }
 
 h2 {
     font-size: 1em;
     font-weight: bold;
-    margin: 0 auto 10% auto;
+    margin: 0 auto 15% auto;
     padding: 0 auto;
 }
 
@@ -53,11 +53,11 @@ h1, h3, h4 {
 }
 
 #sidebar {
-    background-color: orange;
+    background-color: #FFCA28;
 }
 
 .fas {
-    color: orange;
+    color: #FFCA28;
     position: relative;
     font-size: 1.6em;
 }
@@ -65,7 +65,7 @@ h1, h3, h4 {
 .titre-section  {
     display: flex;
     align-items: center;
-    border-bottom: solid orange;
+    border-bottom: solid #FFCA28;
     font-size: 1.3em;
 }
 
@@ -86,6 +86,10 @@ h1, h3, h4 {
 .section-droite {
     width: 60%;
     margin: 2% auto 0 auto;
+}
+
+.date {
+    font-weight: bolder;
 }
 
 .reco-1, .reco-2 {

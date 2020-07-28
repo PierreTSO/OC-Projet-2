@@ -34,12 +34,6 @@ h1, h3 {
     text-transform: uppercase;
 }
 
-
-.section {
-    float: right;
-    width: 67%;
-}
-
 .section h3 {
     letter-spacing: 0.02em;
 }
@@ -56,8 +50,15 @@ h1, h3 {
 .titre-section  {
     display: flex;
     align-items: center;
+    border-bottom: solid orange;
 }
 
 .titre-section h3  {
     margin-left: 20px;
 }
+
+.section-gauche, .section-droite {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} 

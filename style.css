@@ -49,6 +49,7 @@ h1, h3, h4 {
 
 .section h3 {
     letter-spacing: 0.02em;
+    font-size: 2em;
 }
 
 #sidebar {
@@ -58,13 +59,14 @@ h1, h3, h4 {
 .fas {
     color: orange;
     position: relative;
-    font-size: 2em;
+    font-size: 1.6em;
 }
 
 .titre-section  {
     display: flex;
     align-items: center;
     border-bottom: solid orange;
+    font-size: 1.3em;
 }
 
 .titre-section h3  {
@@ -89,4 +91,12 @@ h1, h3, h4 {
 .reco-1, .reco-2 {
     width: 50%;
     margin: 5% auto;
+}
+
+.nom-manager {
+    text-transform: uppercase;
+}
+
+.nom-manager, .info-reco {
+    font-weight: bolder;
 }

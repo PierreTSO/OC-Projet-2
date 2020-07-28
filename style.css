@@ -109,3 +109,15 @@ h1, h3, h4 {
 .container h5, p {
     font-size: 0.8em;
 }
+
+.dot-circle {
+    list-style-image: url(img/dot-circle-regular.svg);
+}
+
+ul {
+    color: #FFCA28;
+}
+
+li > .date {
+    color: black;
+}

@@ -5,6 +5,14 @@ body {
     margin: 0;
 }
 
+body #sidebar {
+    width: 35%;
+}
+
+body #main-content {
+    width: 65%;
+}
+
 #main-content .main-margin {
     width: 85%;
     margin: 0 auto;
@@ -54,6 +62,11 @@ h1, h3, h4 {
 
 #sidebar {
     background-color: #FFCA28;
+}
+
+#sidebar .sidebar-margin {
+    width: 85%;
+    margin: 0 auto;
 }
 
 .fas {

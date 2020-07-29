@@ -64,10 +64,6 @@ h1, h3, h4 {
     background-color: #FFCA28;
 }
 
-#sidebar .sidebar-margin {
-    width: 85%;
-    margin: 0 auto;
-}
 
 .fas {
     color: #FFCA28;
@@ -142,4 +138,13 @@ li > .date {
     border-width: 4px;
     border-color: rgba(107, 94, 94, 0.3);
     margin: 15% auto 15% auto;
+}
+
+.titre-aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFCA28;
+    background-color: #424242;
+    margin: 5px auto;
 }

@@ -155,3 +155,14 @@ li > .date {
     font-weight: bold;
     color: #424242;
 }
+
+#paragraphe-aside {
+    text-align: justify;
+    margin: 10% 5%;
+    color: #424242;
+    font-weight: bold;
+}
+
+.espace-mots {
+    letter-spacing: .12rem;
+}

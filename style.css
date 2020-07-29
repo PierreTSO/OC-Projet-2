@@ -148,3 +148,10 @@ li > .date {
     background-color: #424242;
     margin: 5px auto;
 }
+
+.elements-contact {
+    text-align: justify;
+    margin: 10% 5%;
+    font-weight: bold;
+    color: #424242;
+}

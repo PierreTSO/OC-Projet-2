@@ -169,10 +169,25 @@ li > .date {
 }
 
 #loisirs {
+    display: flex;
     position: absolute;
-    bottom: 0px;
+    bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
-    margin: 5px auto;
     width: 100%;
+}
+
+#loisirs-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    font-size:;
+}
+
+#sidebar .fas {
+    color: #424242;
+    font-size: 2em;
 }

@@ -2,8 +2,7 @@
 
 body {
     display: flex;
-    font-family: 'Roboto-Light', sans-serif;
-    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -19,13 +18,14 @@ body #main-content {
 
 .prenom {
     color: #FFCA28;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
     font-weight: 150;
+    font-weight: 400;
 }
 
 .nom {
     letter-spacing: -0.1em;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .span-header {
@@ -45,7 +45,7 @@ h1 {
 
 h2 {
     font-size: 1em;
-    font-weight: bold;
+    font-weight: 500;
     margin: 0 auto 15% auto;
     padding: 0 auto;
 }
@@ -87,10 +87,6 @@ h2 {
 .section-droite {
     width: 60%;
     margin: 2% auto 0 auto;
-}
-
-.date {
-    font-weight: bolder;
 }
 
 .reco-1, .reco-2 {
@@ -142,21 +138,24 @@ ul {
     align-items: center;
     color: #FFCA28;
     background-color: #424242;
-    margin: 5px auto;
+    margin: 10px auto;
+    font-weight: 500;
+    padding: 2% 0;
+    font-size: 1.5em;
 }
 
 .elements-contact {
     text-align: justify;
-    margin: 10% 5%;
-    font-weight: bold;
+    margin: 10% 10%;
+    font-weight: 600;
     color: #424242;
 }
 
 #paragraphe-aside {
     text-align: justify;
-    margin: 10% 5%;
+    margin: 10% 10%;
     color: #424242;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .espace-mots {
@@ -199,4 +198,12 @@ h1, h3, h4 {
 
 h2, .date, h4, h5, p, .reco-1, .reco-2 {
     color: #424242;
+}
+
+h5, .date {
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 500;
 }

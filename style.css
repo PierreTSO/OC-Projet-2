@@ -1,3 +1,5 @@
+/* BODY */
+
 body {
     display: flex;
     font-family: 'Roboto-Light', sans-serif;
@@ -13,10 +15,7 @@ body #main-content {
     width: 65%;
 }
 
-#main-content .main-margin {
-    width: 85%;
-    margin: 0 auto;
-}
+/* HEADER  */
 
 .prenom {
     color: #FFCA28;
@@ -51,20 +50,12 @@ h2 {
     padding: 0 auto;
 }
 
-h1, h3, h4 {
-    text-transform: uppercase;
-}
+/* MAIN CONTENT */
 
-.section h3 {
-    letter-spacing: 0.02em;
-    font-size: 2em;
+#main-content .main-margin {
+    width: 85%;
+    margin: 0 auto;
 }
-
-#sidebar {
-    position: relative;
-    background-color: #FFCA28;
-}
-
 
 .fas {
     color: #FFCA28;
@@ -132,6 +123,13 @@ li > .date {
     color: black;
 }
 
+/* SIDEBAR */
+
+#sidebar {
+    position: relative;
+    background-color: #FFCA28;
+}
+
 #photo-cv {
     display: block;
     border-radius: 50%;
@@ -189,5 +187,16 @@ li > .date {
 
 #sidebar .fas {
     color: #424242;
+    font-size: 2em;
+}
+
+/* POLICE  */
+
+h1, h3, h4 {
+    text-transform: uppercase;
+}
+
+.section h3 {
+    letter-spacing: 0.02em;
     font-size: 2em;
 }

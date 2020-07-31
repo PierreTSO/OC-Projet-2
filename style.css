@@ -119,9 +119,6 @@ ul {
     color: #FFCA28;
 }
 
-li > .date {
-    color: black;
-}
 
 /* SIDEBAR */
 
@@ -198,5 +195,8 @@ h1, h3, h4 {
 
 .section h3 {
     letter-spacing: 0.02em;
-    font-size: 2em;
+}
+
+h2, .date, h4, h5, p, .reco-1, .reco-2 {
+    color: #424242;
 }

@@ -80,7 +80,12 @@ h2 {
 }
 
 .section-gauche {
-    width: 40%;
+    width: 5%;
+    margin: 2% auto 0 auto;
+}
+
+.section-milieu {
+    width: 35%;
     margin: 2% auto 0 auto;
 }
 
@@ -111,10 +116,31 @@ h2 {
     list-style-image: url(img/dot-circle-regular.svg);
 }
 
-ul {
+.icon-list {
+    font-size: 1em;
     color: #FFCA28;
+    padding-right: 20px;
 }
 
+.icon-list-circle {
+    font-size: 0.6em;
+    color: #FFCA28;
+    padding-right: 20px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+h4 {
+    margin-top: 0;
+}
+
+.maarge {
+    padding-left: 20px;
+}
 
 /* SIDEBAR */
 
@@ -156,10 +182,6 @@ ul {
     margin: 10% 10%;
     color: #424242;
     font-weight: 500;
-}
-
-.espace-mots {
-    letter-spacing: .12rem;
 }
 
 #loisirs {

@@ -79,6 +79,11 @@ h2 {
     align-content: stretch;
 }
 
+.contenu-reco {
+    display: flex;
+    justify-content: flex-start;
+}
+
 .section-gauche {
     width: 5%;
     margin: 2% auto 0 auto;
@@ -131,7 +136,7 @@ h2 {
 .portfolio-list {
     display: flex;
     flex-direction: column;
-
+    padding: 0 40px;
 }
 
 h4 {
@@ -188,8 +193,6 @@ h4 {
     display: flex;
     position: absolute;
     bottom: 10%;
-    left: 50%;
-    transform: translateX(-50%);
     width: 100%;
 }
 
@@ -200,7 +203,7 @@ h4 {
     position: absolute;
     width: 100%;
     bottom: 5%;
-    font-size:;
+    font-size: 2em;
 }
 
 #sidebar .fas {
@@ -228,4 +231,76 @@ h5, .date {
 
 h3 {
     font-weight: 500;
+}
+
+/* MEDIA QUERIES & RESPONSIVE */
+
+@media screen and (max-width: 900px) {
+    body {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    body #sidebar {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    body #main-content {
+        width: 100%;
+    }
+
+    #main-content {
+        width: 100%;
+    }
+
+    #main-content .main-margin {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+
+    .main-margin {
+        width: 100%;
+        margin: 0;
+    }
+
+    header {
+        align-items: center;
+    }
+
+    .section-milieu {
+        width: 20%;
+    }
+
+    .portfolio-list {
+        padding: 0;
+    }
+
+    .reco-1, .reco-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sidebar {
+        position: static;
+        width: 100%;
+    }
+
+    #loisirs {
+        position: static;
+        margin-bottom: 10%;
+    }
+
+    #loisirs-icons {
+        position: static;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+
+    .elements-contact {
+        text-align: center;
+    }
 }

@@ -260,7 +260,6 @@ h3 {
         margin: 0 auto;
     }
     
-
     .main-margin {
         width: 100%;
         margin: 0;
@@ -302,5 +301,18 @@ h3 {
 
     .elements-contact {
         text-align: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .contenu-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-milieu, .section-droite, .section-gauche {
+        width: 100%;
     }
 }

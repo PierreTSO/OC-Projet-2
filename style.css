@@ -150,9 +150,9 @@ h4 {
 /* SIDEBAR */
 
 #photo-cv {
-    width: "80%"; 
-    height: "auto"; 
-    max-width: "300px";
+    width: 80%; 
+    height: auto; 
+    max-width: 300px;
 }
 
 #sidebar {
